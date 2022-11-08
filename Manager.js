@@ -1,5 +1,6 @@
+// class
 class Manager{
-
+// constructor 
     constructor() {
         this.id = 1
         this.email = "Email:"
@@ -7,6 +8,7 @@ class Manager{
     
     }
     
+    // returning 
     id(){
         return this.id;
     }
@@ -21,5 +23,5 @@ class Manager{
     
     
     }
-    
+    // export 
     module.exports = Manager;

@@ -1,31 +1,38 @@
-const Manager = require('./Manager')
-const Engineer = require('./Engineer')
-const Employee = require('./Employee')
-const Intern = require('./Intern')
+// variables 
+const inquirer = require ('inquirer');
+const Manager = require('./Manager');
+const Engineer = require('./Engineer');
+const Employee = require('./Employee');
+const Intern = require('./Intern');
 
-
+// manager object function 
 function generateManagerObject(){
-    // Creates a new instance of a class
     const managerObject = new Manager();
     console.log(managerObject)
 
 }
+ // engineer object 
 function generateEngineerObject(){
     const engineerObject = new Engineer();
     console.log(engineerObject)
 
 }
+
+// employee object 
 function generateEmployeeObject(){
     const employeeObject = new Employee();
     console.log(employeeObject)
 
 }
+
+// intern object 
 function generateInternObject(){
     const internObject = new Intern();
     console.log(internObject)
 
 }
 
+// returning objects 
 let objToGenerate = ""
 
 if(objToGenerate === "Manager"){
