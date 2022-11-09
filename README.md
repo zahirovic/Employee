@@ -22,7 +22,7 @@ This tool was created to practice the following skills:
 #### The work done can be found on the GitHub repository [zahirovic/Employee](https://github.com/zahirovic/Employee) and should look along the lines of this:
 
 
-![Employee example](Employee.png)
+https://drive.google.com/file/d/1DseLInpwS0RmiaQ7v70l4NMPALZfMyey/view?usp=sharing
 
 
 
