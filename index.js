@@ -1,9 +1,11 @@
 // variables 
-const inquirer = require ('inquirer');
-const Manager = require('./Manager');
-const Engineer = require('./Engineer');
-const Employee = require('./Employee');
-const Intern = require('./Intern');
+const inquirer = require('inquirer');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Employee = require('./lib/Employee');
+const Intern = require('./lib/Intern');
+const { appendFile } = require('graceful-fs');
+
 
 // manager object function 
 function generateManagerObject(){
@@ -31,16 +33,25 @@ function generateInternObject(){
     console.log(internObject)
 
 }
+//
+//function writeToFile(fileName, data) {
+ //   return fs.writeFileSync('./dist/index.html', data)
+//}
 
-// returning objects 
-let objToGenerate = ""
+//function init() {
+  //  return inquirer.prompt(Manager)
+    
+//}
 
-if(objToGenerate === "Manager"){
-    generateManagerObject()
-}else if(objToGenerate === "Engineer"){
-    generateEngineerObject()
-}else if(objToGenerate === "Employee"){
-    generateEmployeeObject()
-}else if(objToGenerate === "Intern"){
-    generateInternObject()
-}
+
+//let objToGenerate = ""
+
+//if(objToGenerate === "Manager"){
+ //  generateManagerObject()
+//}else if(objToGenerate === "Engineer"){
+  //  generateEngineerObject()
+//}else if(objToGenerate === "Employee"){
+   // generateEmployeeObject()
+//}else if(objToGenerate === "Intern"){
+ //  generateInternObject()
+//}
